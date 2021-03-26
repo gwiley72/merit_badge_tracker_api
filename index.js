@@ -6,8 +6,7 @@ const port = 3000;
 const init = async () => {
 
     const server = Hapi.server({
-        port: process.env.PORT || port,
-        host: 'localhost'
+        port: process.env.PORT || port
     });
 
     server.route({
