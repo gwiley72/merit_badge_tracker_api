@@ -14,7 +14,7 @@ const init = async () => {
         path: '/',
         handler: (request, h) => {
 
-            return 'Hello World!';
+            return 'Welcome to the Merit Badge Tracker API';
         }
     });
 
